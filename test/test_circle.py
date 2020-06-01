@@ -4,7 +4,7 @@ from math import pi
 
 class TestCircleArea(unittest.TestCase): 
     def test_area(self):
-        #Test ares when radius >= 0
+        #Test area when radius >= 0
         self.assertAlmostEqual(circle_area(1), pi)
         self.assertAlmostEqual(circle_area(0), 0)
         self.assertAlmostEqual(circle_area(2.1), pi * 2.1**2)
